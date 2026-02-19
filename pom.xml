@@ -72,4 +72,10 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
+<distributionManagement>
+<repository>
+<id>mv</id>
+<url>http://192.168.0.42:8081/repository/shruti_maven/</url>
+</repository>
+</distributionManagement>
 </project>
