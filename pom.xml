@@ -34,6 +34,11 @@
 				</executions>
 			</plugin>
 			<plugin>
+  <groupId>org.jacoco</groupId>
+  <artifactId>jacoco-maven-plugin</artifactId>
+  <version>0.8.15-SNAPSHOT</version>
+</plugin>
+			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.11.0</version>
 				<configuration>
@@ -79,4 +84,5 @@
 </repository>
 </distributionManagement>
 </project>
+
 
