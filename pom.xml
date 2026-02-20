@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
 	<artifactId>onlinebookstore</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+<version>1.1.5-${maven.build.timestamp}</version>
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
@@ -83,7 +83,11 @@
 <url>http://192.168.0.42:8081/repository/shruti_maven/</url>
 </repository>
 </distributionManagement>
+	<properties>
+<maven.build.timestamp.format>yyyy-MM-dd-HHmm</maven.build.timestamp.format>
+</properties>
 </project>
+
 
 
 
