@@ -9,7 +9,7 @@ trigger:
 pool:
    name: 'Default'
    demands:
-   - Agent.Name -equals om
+   - Agent.Name -equals shruti_agent
 
 steps:
 - task: Maven@3
