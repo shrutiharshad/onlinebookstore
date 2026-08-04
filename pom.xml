@@ -5,7 +5,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>onlinebookstore</artifactId>
 <version>1.1.5-${maven.build.timestamp}</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<finalName>onlinebookstore</finalName>
